@@ -1,5 +1,7 @@
 ---
+spring.config.activate.on-profile: prod
 logging:
   level:
     org.springframework.boot: DEBUG
-env1: default
+env2: production
+
