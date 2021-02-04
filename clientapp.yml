@@ -1,15 +1,14 @@
 ---
 spring:
-  profiles: default
-
-logging:
-  level:
-    org.springframework.boot: DEBUG
-env1: default
----
-spring:
   profiles: prod
 logging:
   level:
     org.springframework.boot: DEBUG
 env2: production
+---
+spring:
+  profiles: default
+logging:
+  level:
+    org.springframework.boot: DEBUG
+env1: default
