@@ -1,4 +1,4 @@
 ---
 spring:
-  profiles: adjective
+  profiles: prod
 lucky-word: Irish
