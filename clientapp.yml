@@ -1,5 +1,5 @@
 ---
-env1: Irish
+env1: default
 ---
 spring:
   profiles: prod
