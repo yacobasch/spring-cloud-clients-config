@@ -3,3 +3,5 @@ logging:
   level:
     org.springframework.boot: DEBUG
 env1: default
+server:
+  port: 8002
