@@ -1,2 +1,6 @@
 ---
 lucky-word: Irish
+---
+spring:
+  profiles: prod
+env: production
