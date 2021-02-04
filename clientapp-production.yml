@@ -1,9 +1,0 @@
----
-logging:
-  level:
-    org.springframework.boot: DEBUG
-env2: production
-
-server:
-  port: 8002
-
