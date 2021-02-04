@@ -1,6 +1,6 @@
 ---
-lucky-word: Irish
+env1: Irish
 ---
 spring:
   profiles: prod
-env: production
+env2: production
