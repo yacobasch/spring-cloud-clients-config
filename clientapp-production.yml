@@ -1,5 +1,4 @@
 ---
-spring.profiles: production
 logging:
   level:
     org.springframework.boot: DEBUG
