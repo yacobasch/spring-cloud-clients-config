@@ -1,6 +1,5 @@
 ---
-spring:
-  profiles: prod
+spring.config.activate.on-profile: prod
 logging:
   level:
     org.springframework.boot: DEBUG
