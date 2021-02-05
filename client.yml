@@ -3,8 +3,6 @@ words: noword
 ---
 spring:
   profiles: sentence
-  application:
-    name: client-sentence
 server:
   port: 8020
 words: NotApplicable
@@ -12,34 +10,24 @@ words: NotApplicable
 ---
 spring:
   profiles: subject
-  application:
-    name: client-subject
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
-  application:
-    name: client-verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
-  application:
-    name: client-article
 words: a,the
 
 ---
 spring:
   profiles: adjective
-  application:
-    name: client-adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
-  application:
-    name: client-noun
 words: boat,book,vote,seat,backpack,partition,groundhog
