@@ -1,7 +1,5 @@
 ---
-eureka:
-  instance:
-    instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+wrods: Nothing_here_blank
 
 ---
 spring:
